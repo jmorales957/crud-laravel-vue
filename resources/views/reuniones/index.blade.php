@@ -1,0 +1,9 @@
+@extends('layouts.app')
+@section('content')
+    <index-reunion
+        :pendientes="{{$pendientes}}"
+        :realizados="{{$realizados}}"
+        :no_realizados="{{$no_realizados}}"
+        :reuniones="{{$reuniones}}"
+        :prospecto="{{$prospecto}}"></index-reunion>
+@endsection
